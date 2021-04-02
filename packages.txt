@@ -1,4 +1,5 @@
-openjdk-8-jdk
+
+java-jdk-8.25.17
 
 #apt-get update && apt-get install -y openjdk-8-jdk && apt-get install -y ant && apt-get\ #clean;
 
