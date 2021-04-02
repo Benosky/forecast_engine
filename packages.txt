@@ -1,18 +1,1 @@
-
-#java-jdk-8.25.17
-
-#apt-get update && apt-get install -y openjdk-8-jdk && apt-get install -y ant && apt-get\ #clean;
-
-wget http://apache.mirror.anlx.net/spark/spark-2.4.7/spark-2.4.7-bin-hadoop2.7.tgz
-tar -xzf spark-2.4.7-bin-hadoop2.7.tgz
-mv spark-2.4.7-bin-hadoop2.7 /spark
-rm spark-2.4.7-bin-hadoop2.7.tgz
-
-wget https://downloads.lightbend.com/scala/2.11.12/scala-2.11.12.rpm
-
-apt install gcc
-
-apt install g++
-
-
-echo 'deb http://ftp.us.debian.org/debian/ stretch main contrib non-free' > /etc/apt/sources.list.d/stretch.list && apt-get update && apt-get install -y --no-install-recommends openjdk-8-jre-headless && rm /etc/apt/sources.list.d/stretch.list && apt-get\ clean && rm -rf /var/lib/apt/lists/*
+sudo apt-get install openjdk-8-jre-headless
