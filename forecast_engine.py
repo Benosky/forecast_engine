@@ -18,7 +18,7 @@ from scipy.special import boxcox1p
 import numpy
 import pandas
 import pyarrow
-import sklearn #.preprocessing import PowerTransformer, MinMaxScaler
+#import sklearn #.preprocessing import PowerTransformer, MinMaxScaler
 from pyspark.sql.functions import unix_timestamp, from_unixtime, to_timestamp
 from pyspark.sql.functions import current_date
 
