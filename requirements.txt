@@ -5,7 +5,7 @@ convertdate
 fbprophet==0.6
 pystan==2.19.1.1
 plotly==4.14.3
-pyarrow==0.14.1
+pyarrow>=1.0.0
 pycountry_convert==0.7.2
 #streamlit==0.79.0
 pandas==1.1.4
