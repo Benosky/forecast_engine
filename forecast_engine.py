@@ -31,7 +31,6 @@ from pandas_datareader import data as pdr
 
 import sys
 import pycountry_convert as pc
-import pydeck as pdk
 
 st.title('Branches Sales Forecasts Dashboard')
 
